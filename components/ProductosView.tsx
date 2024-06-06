@@ -8,12 +8,12 @@ export type ThemedViewProps = ViewProps & {
   darkColor?: string;
 };
 
-export function ThemedView({ style, lightColor, darkColor, ...otherProps }: ThemedViewProps) {
+export function ProductosView({ style, lightColor, darkColor, ...otherProps }: ThemedViewProps) {
   const backgroundColor = useThemeColor({ light: lightColor, dark: darkColor }, 'background');
 
   return <View style={[{ backgroundColor }, style]} {...otherProps} >
     <Text style={styles.title}>
-      Inventario de la aplicacion
+      Productos de la aplicación
     </Text>
   </View>;
 }
