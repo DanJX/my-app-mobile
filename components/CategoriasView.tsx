@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     padding: 10,
     textAlign: 'center',
     marginBottom: 20,
+    marginTop: 50,
   }
 
 });

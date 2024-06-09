@@ -24,6 +24,10 @@ export function ThemedText({ navigation }: any) {
       title={'Ver Categorias'}
       onPress={() => navigation.navigate('Categorias')}
       />
+      <Button
+      title={'Ver Noticias'}
+      onPress={() => navigation.navigate('Noticias')}
+      />
       </View>
     </>
   );
@@ -48,6 +52,7 @@ const styles = StyleSheet.create({
     padding: 10,
     textAlign: 'center',
     marginBottom: 20,
+    marginTop: 50,
   },
   subtitle: {
     fontSize: 20,
