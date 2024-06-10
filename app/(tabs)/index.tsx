@@ -8,9 +8,6 @@ import { ProductosView } from '@/components/ProductosView';
 import { CategoriasView } from '@/components/CategoriasView';
 import { NoticiasView } from '@/components/NoticiasView';
 
-// import { Button } from '@rneui/base';
-// import Icon from 'react-native-vector-icons/FontAwesome';
-
 const Stack = createStackNavigator();
 
 export default function HomeScreen() {
